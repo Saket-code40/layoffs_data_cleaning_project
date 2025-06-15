@@ -33,10 +33,11 @@ This project involves cleaning a real-world dataset about layoffs in tech compan
 - ✅ Prepare the dataset for analysis
 
 ---
+## Learnings
+~How to use SQL window functions (ROW_NUMBER) for deduplication
 
-## ⚙️ Cleaning Steps Summary
+~Strategies for null value handling
 
-### 1️⃣ Create Staging Table
-```sql
-CREATE TABLE layoffs_staging LIKE layoffs;
-INSERT INTO layoffs_staging SELECT * FROM layoffs;
+~Standardizing text and formatting in SQL
+
+~Converting string dates to date types using STR_TO_DATE
